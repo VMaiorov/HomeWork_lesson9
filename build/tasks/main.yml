@@ -1,2 +1,6 @@
 ---
 # tasks file for build
+- name: Create Docker container
+  docker_container:
+    name: build server
+    
