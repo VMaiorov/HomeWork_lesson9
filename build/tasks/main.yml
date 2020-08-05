@@ -1,2 +1,14 @@
 ---
 # tasks file for build
+- name: install packages
+  apt: name={{ item }} state=present
+  with_items:
+    - docker.io
+    - mc
+
+- name: Create Docker container
+  docker_container:
+    name: build server
+    build:
+      dockerfile: 
+    
