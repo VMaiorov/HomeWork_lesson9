@@ -14,6 +14,6 @@
     version: master 
 
 - name: Build
-    shell: mvn package
-    args:
-      chdir: "/"
+  shell: mvn package
+  args:
+    chdir: "/"
