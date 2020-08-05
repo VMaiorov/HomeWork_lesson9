@@ -13,7 +13,7 @@
     dest: "/"
     version: master 
 
- - name: Build
-   shell: mvn package
-   args:
-     chdir: "/"
+- name: Build
+    shell: mvn package
+    args:
+      chdir: "/"
