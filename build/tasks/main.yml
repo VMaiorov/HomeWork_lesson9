@@ -18,5 +18,5 @@
     synchronize:
       src: {{ Dest_folder }}
       dest: "/home"
-    delegate_to:       
+    delegate_to: 130.193.59.199      
     
