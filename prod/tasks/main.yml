@@ -11,3 +11,4 @@
     name: prod server
     build:
       dockerfile: Dockerfile
+      volemes: /home:/opt/tomcat/webapps/
